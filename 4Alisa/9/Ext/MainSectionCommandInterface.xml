@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<CommandsVisibility>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.РезервыТоваров.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="AccumulationRegister.ПартииТоваров.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsOrder>
+		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.Товары.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.РасходнаяНакладная.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.РезервированиеТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Document.СписаниеРезерва.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.РезервыТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ПартииТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="Catalog.Контрагенты.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Catalog.Товары.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.ПриходнаяНакладная.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.РасходнаяНакладная.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.РезервированиеТоваров.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+		<Command name="Document.СписаниеРезерва.StandardCommand.Create">
+			<CommandGroup>ActionsPanelCreate</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<GroupsOrder>
+		<Group>NavigationPanelOrdinary</Group>
+		<Group>ActionsPanelCreate</Group>
+	</GroupsOrder>
+</CommandInterface>

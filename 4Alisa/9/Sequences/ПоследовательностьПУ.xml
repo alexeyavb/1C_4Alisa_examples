@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Sequence uuid="6b4b99d7-d06e-4d9a-8f65-d2592b4a0997">
+		<InternalInfo>
+			<xr:GeneratedType name="SequenceRecord.ПоследовательностьПУ" category="Record">
+				<xr:TypeId>819a73b4-70f0-435e-9699-593752eb9084</xr:TypeId>
+				<xr:ValueId>3d813940-3471-4482-9941-72e047b9b4e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceManager.ПоследовательностьПУ" category="Manager">
+				<xr:TypeId>41a9e80d-1f08-4eb6-af8e-c5a0e2a0a576</xr:TypeId>
+				<xr:ValueId>367cef76-1dec-4b12-b627-ed6cf0ae8b26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceRecordSet.ПоследовательностьПУ" category="RecordSet">
+				<xr:TypeId>d6f3d9fb-6c26-4bf5-a528-9cf0e6e70871</xr:TypeId>
+				<xr:ValueId>48da6f8d-ecda-40d9-8e4f-2514c8ae7208</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоследовательностьПУ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последовательность ПУ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<MoveBoundaryOnPosting>Move</MoveBoundaryOnPosting>
+			<Documents>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриходнаяНакладная</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасходнаяНакладная</xr:Item>
+			</Documents>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
+			</RegisterRecords>
+			<DataLockControlMode>Managed</DataLockControlMode>
+		</Properties>
+		<ChildObjects/>
+	</Sequence>
+</MetaDataObject>

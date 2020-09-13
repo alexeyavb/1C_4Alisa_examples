@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<ChartOfCharacteristicTypes uuid="b7796dbe-e789-4547-b9ff-3ca887782e1d">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ХарактеристикиТоваров" category="Object">
+				<xr:TypeId>28569d05-3364-4c8b-b39b-449073a77da7</xr:TypeId>
+				<xr:ValueId>afc4648a-d483-476e-b7d6-2456b36100d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ХарактеристикиТоваров" category="Ref">
+				<xr:TypeId>34b271bd-5d5a-45cf-b8bf-eb0def978bb6</xr:TypeId>
+				<xr:ValueId>4ac3378c-14dd-4ebb-98c0-68adc6e659bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ХарактеристикиТоваров" category="Selection">
+				<xr:TypeId>3237e855-abe0-42df-bb67-6a26ad93235c</xr:TypeId>
+				<xr:ValueId>493e8fcc-6ed7-4be4-806f-5291c8a51770</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ХарактеристикиТоваров" category="List">
+				<xr:TypeId>a19d6529-501f-46f4-b657-cac3394e92eb</xr:TypeId>
+				<xr:ValueId>73afdc7d-2296-4b77-a191-9d53a83d6655</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ХарактеристикиТоваров" category="Characteristic">
+				<xr:TypeId>b036934a-5a87-41c8-b7f6-f32f48890828</xr:TypeId>
+				<xr:ValueId>287669cd-2665-4734-bb29-197167cd59cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ХарактеристикиТоваров" category="Manager">
+				<xr:TypeId>34145a88-ff32-4104-a96e-d9e856bd2154</xr:TypeId>
+				<xr:ValueId>32581d7e-3781-4878-ba0a-98c28bf4be5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ХарактеристикиТоваров</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Характеристики товаров</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues/>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DescriptionLength>120</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfCharacteristicTypes.ХарактеристикиТоваров.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.ХарактеристикиТоваров.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>
